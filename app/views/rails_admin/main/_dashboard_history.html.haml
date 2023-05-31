@@ -1,7 +1,7 @@
 = stylesheet_link_tag 'rails_admin/ra.history'
-= javascript_include_tag 'rails_admin/diff_match_patch'
-= javascript_include_tag 'rails_admin/jquery.pretty-text-diff'
-= javascript_include_tag 'rails_admin/ra.history'
+= javascript_include_tag 'rails_admin/diff_match_patch', defer: true
+= javascript_include_tag 'rails_admin/jquery.pretty-text-diff', defer: true
+= javascript_include_tag 'rails_admin/ra.history', defer: true
 
 %table#history.table.table-condensed.table-striped
   %thead
